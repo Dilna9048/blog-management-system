@@ -1,0 +1,136 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* ഹെഡ്ഡിംഗ് സ്റ്റൈൽ */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+h2 {
+  color: #34495e;
+  border-bottom: 2px solid #edf2f7;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+
+p {
+  font-size: 16px;
+  color: #4a5568;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+
+button {
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+
+button[onClick*="handleLogout"], button:has(text:contains("Logout")) {
+  background-color: #e53e3e;
+  padding: 6px 12px;
+  margin-left: 10px;
+}
+
+button[onClick*="handleLogout"]:hover {
+  background-color: #c53030;
+}
+
+/* ബ്ലോഗ് ഫോം ഇൻപുട്ടുകൾ (Title & Content) */
+input[type="text"], textarea {
+  width: 100% !important;
+  padding: 12px;
+  margin: 8px 0 16px 0;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+input[type="text"]:focus, textarea:focus {
+  border-color: #3182ce;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.15);
+}
+
+textarea {
+  height: 120px !important;
+  resize: vertical;
+}
+
+
+div[style*="border"] {
+  border: none !important;
+  background: #ffffff;
+  padding: 20px !important;
+  margin: 20px 0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #3182ce !important;
+}
+
+div[style*="border"] h3 {
+  margin: 0 0 8px 0;
+  color: #2d3748;
+  font-size: 22px;
+}
+
+/* കമന്റ് സെക്ഷൻ സ്റ്റൈൽ */
+h4 {
+  margin-top: 15px;
+  color: #4a5568;
+}
+
+p[style*="backgroundColor"] {
+  background-color: #f7fafc !important;
+  padding: 10px !important;
+  border-radius: 6px;
+  margin: 5px 0;
+  border-left: 3px solid #cbd5e0;
+  font-size: 14px;
+}
+
+
+.auth-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
