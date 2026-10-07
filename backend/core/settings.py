@@ -131,7 +131,7 @@ MAILERS = {
 }
 CORS_ALLOW_ALL_ORIGINS = True 
 
-# backend/core/settings.py ഫയലിൽ ഇത് അപ്ഡേറ്റ് ചെയ്യുക
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (

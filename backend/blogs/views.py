@@ -18,7 +18,7 @@ class UserRegisterView(APIView):
 
 
 
-# blogs/views.py ഫയലിൽ ഈ ക്ലാസ് മാത്രം ഇങ്ങനെ മാറ്റുക:
+
 
 class BlogPostViewSet(viewsets.ModelViewSet):
     queryset = BlogPost.objects.all().order_by('-created_at')
